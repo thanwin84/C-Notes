@@ -57,5 +57,9 @@ int main() {
 	}
 	// it wil delete all abc
 	ms.erase("abc");
+	// last iterator
+	auto last = --ms.end();
+	// deleting only last iterator
+	ms.erase(last);
 	return 0;
 }
